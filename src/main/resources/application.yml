@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/botdb
+    username: botuser
+    password: botpass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+bot:
+  name: dialysisControlBot
+  token: 8364197758:AAEsNRDT3EpFlhHd-dJ-4JSnPQyvnAb-kjE
